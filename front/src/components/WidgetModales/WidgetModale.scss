@@ -1,0 +1,47 @@
+.widget-modale {
+    box-shadow: 4px 2px 12px 0px rgba(0, 0, 0, 0.57);
+    border-radius: 20px;
+    height: auto;
+    width: 80%;
+    padding: 5%;
+    margin: 5%;
+    margin-top: 100px;
+    z-index: 999;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        color: #FFF;
+    }
+
+    &__button {
+        background-color: #50B2C0;
+        border: 2px solid #50B2C0;
+        color: #FFF;
+        padding: 2%;
+        width: 100%;
+    
+        &:hover {
+            transition : background-color 250ms;
+            background-color: #FFF;
+            color: #50B2C0;
+        }
+    }
+}
+
+.closeButton {
+    font-size: larger;
+    color: #FD2D01;
+    cursor: pointer;
+    
+    &:hover {
+        color: #A23D44;
+    }
+}
+
+
+

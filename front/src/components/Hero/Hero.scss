@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+.hero {
+    background-image: url(../../assets/sunset.jpeg);
+    opacity: 0.89;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__title {
+        color: #FFF;
+        margin-bottom: 0;
+        font-size: 80px;
+        font-family: 'Shrikhand', cursive;
+
+        &--color {
+        color: #FFD;
+        font-family: 'Shrikhand', cursive;
+        }
+    }
+
+    &__desc {
+        color: #FFF;
+        
+    }
+    &__button {
+        border-color: #FFF;
+        color: #FFF;
+    }
+
+    &__dash {
+        color: #FFF;
+        border: 2px solid #FFF;
+        border-radius: 5px;
+        padding: 15px;
+        text-decoration: none;
+
+        &:hover {
+            color: #F86041;
+            background-color: #FFD601;
+            border: 3px solid #F86041;
+        }
+    }
+}
+

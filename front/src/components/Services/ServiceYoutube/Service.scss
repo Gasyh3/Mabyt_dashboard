@@ -1,0 +1,28 @@
+.service {
+    width: 90%;
+    border: 1px solid #FFF;
+    border-radius: 20px;
+    height: 125px;
+    background-color: transparent;
+    margin-bottom: 30px;
+    margin-left: 20px;
+
+    &:hover {
+        background-color: #FFF;
+    }
+
+    &__img {
+        object-fit: cover;
+        width: 200px;
+        height: auto;
+    }
+}
+
+.modale_background_overlay {
+    position: absolute;
+    width: 100%;
+    height: 600%;
+    background: linear-gradient(2deg, #FD2D01, #FFD7D7, #4E5166);
+    top: 0;
+    left: 0;
+}

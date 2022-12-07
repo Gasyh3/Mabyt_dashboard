@@ -1,0 +1,22 @@
+.WidgetCinema-content{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 10px;
+
+}
+
+.WidgetCinema-2{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
